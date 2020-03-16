@@ -46,7 +46,7 @@ then
 			--location $LOCATION \
 			--tags $DOMAIN
 		echo 'create vm : ' $DOMAIN'.'$LOCATION'.cloudapp.azure.com'
-		az group deployment create \
+		az deployment group create \
 			--resource-group $RESOURCE_GROUP \
 			--template-uri https://raw.githubusercontent.com/JLLormeau/azure-cli-deploy-vm-for-workshop/master/azuredeploy.json \
 			--parameters  adminUsername="$USER" adminPasswordOrKey="$PASSWORD" authenticationType="password" dnsNameForPublicIP="$DOMAIN" vmSize="$SIZE";
