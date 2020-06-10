@@ -1,1 +1,1 @@
-new directory : https://github.com/JLLormeau/lab-environment-for-dynatrace-training
+this page has been migrated to : https://github.com/JLLormeau/lab-environment-for-dynatrace-training
